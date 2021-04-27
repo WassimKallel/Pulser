@@ -21,8 +21,8 @@ setup(
     name="pulser",
     version=__version__,
     install_requires=[
-        "matplotlib",
         "numpy",
+        "matplotlib",
         "scipy",
         "qutip",
     ],
