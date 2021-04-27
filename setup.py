@@ -21,10 +21,10 @@ setup(
     name="pulser",
     version=__version__,
     install_requires=[
-        "numpy",
+        "qutip",
         "matplotlib",
         "scipy",
-        "qutip",
+        "numpy",
     ],
     packages=find_packages(),
     include_package_data=True,
